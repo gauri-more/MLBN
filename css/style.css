@@ -1,0 +1,277 @@
+.top-header {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    padding: 13px;
+}
+
+.company-detail {
+    min-width: 60%;
+}
+
+.vertical-seperator {
+    border-right: 1px solid #e7e7e7;
+    height: 30px;
+}
+
+.horizontal-seperator {
+    border-bottom: 1px solid #e7e7e7;
+    width: 100%;
+}
+
+.contact-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #ff4949;
+}
+
+.text-red {
+    color: #ff4949;
+}
+
+ul.navbar-nav {
+    min-width: 70%;
+    justify-content: space-around;
+}
+
+ul.social-links-logo {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+a {
+    color: hsl(0deg 0% 20%);
+}
+
+a:hover {
+    color: hsl(200deg 53% 35%);
+}
+li.mx-3:hover{
+    background-color: hsl(200deg 53% 35%)
+}
+li.mx-3:hover i {
+    color: white;
+}
+.social-conatiner {
+    min-width: 30%;
+    justify-content: space-around;
+    display: flex;
+}
+
+li.mx-3 {
+    background-color: hsl(0deg 0% 80%);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.banner-image img {
+    max-height: 450px;
+    min-height: 245px;
+    width: 100%;
+}
+
+.banner-content {
+    top: 15%;
+    position: absolute;
+}
+
+.member-box {
+    text-align: center;
+    padding: 60px 30px;
+}
+
+.member-icon {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    background-color: #fff;
+    margin: 0 auto;
+    line-height: 90px;
+}
+
+/* .member-box p {
+    font-size: 24px;
+} */
+
+.bg-red {
+    background: #ff4949;
+}
+
+.box-container .card {
+    border: none;
+    box-shadow: 0px 6px 30px rgb(0 0 0 / 8%);
+    margin: 0 auto;
+}
+
+.bg-light-red {
+    background: #ff49491a;
+    color: #ff4949;
+}
+
+.MLNO-card .card {
+    max-height: 315px !important;
+}
+.card-footer {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.profile-icon.text-light {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-color: hsl(200deg 53% 35%);
+    margin: 0 auto;
+    line-height: 80px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.quote-icon {
+    color: #9e9e9e52;
+    font-size: 45px;
+    padding-right: 25px;
+}
+
+img.img-overlap-2 {
+    position: absolute;
+    right: 25%;
+    top: 60%;
+    border: 4px solid #f3efef8f;
+}
+
+.why-us-img {
+    display: grid;
+        position: relative;
+        grid-template-columns: repeat(12, 1fr);
+}
+
+.why-us-img .image-stack__item--bottom {
+    grid-column: 4 / -1;
+    grid-row: 1;
+    padding-top: 36%;
+        z-index: 1;
+}
+
+.why-us-img .image-stack__item--top {
+    grid-row: 1;
+    grid-column: 1 / span 8;
+}
+
+.why-us-img img {
+    width: 100%;
+    display: block;
+}
+
+.gallery-imgs img {
+    width: 100%;
+    height: auto;
+}
+.gallery-images .owl-item{
+    margin-right: 0!important;
+}
+.w-65 {
+    width: 65% !important;
+    
+}
+
+li.mx-1 {
+    background-color: hsl(216deg 25% 22%);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.top-footer li a {
+    color: hsl(180deg 9% 98%);
+}
+
+.top-footer li:hover {
+    background-color: hsl(200deg 53% 35%);
+}
+
+ul.footer-social-links-logo {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-footer {
+    background: #111d30;
+}
+
+.bootom-footer {
+    background-color: hsl(215deg 42% 10%);
+}
+
+
+
+
+
+
+
+
+.owl-carousel .owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+
+.owl-carousel .owl-dots {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.owl-carousel .owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+}
+
+.owl-carousel .owl-dots button.owl-dot.active {
+    background-color: #000;
+}
+
+.owl-carousel .owl-dots button.owl-dot:focus {
+    outline: none;
+}
+
+.owl-carousel .owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+
+.owl-carousel span {
+    font-size: 70px;
+    position: relative;
+    top: -5px;
+}
+
+.owl-carousel .owl-nav button:focus {
+    outline: none;
+}
